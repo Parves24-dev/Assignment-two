@@ -99,7 +99,11 @@ header>nav{
 }
 
 
+marquee{
+    font-size: 18px;
+    margin-top: 15px;
 
+}
 
 
 /* benner section */
@@ -281,6 +285,89 @@ header>nav{
     gap: 10px;
  
 }
+.orenge-icons i:hover{
+    background-color: black;
+    color: orange;
+}
+
+/* grid section */
+.our-stories{
+    background-image: url(assets/bg.png);
+    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 40%, rgb(255, 224, 157) 100%),url(assets/bg.png); 
+    height: auto;
+    background-blend-mode: multiply;
+}
+.grids{
+    width: 82%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    ".grid-item-1  .grid-item-2  .grid-item-3"
+    ".grid-item-1  .grid-item-4  .grid-item-5"
+    ;
+
+}
+
+.our-stories h3 {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.grid-item-1{
+    display: flex;
+    flex-direction: column;
+}
+.grid-item-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item-2{
+    display: flex;
+    flex-direction: column;
+}
+.grid-item-2 img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item-3{
+    display: flex;
+    flex-direction: column;
+}
+.grid-item-3 img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item-4{
+    display: flex;
+    flex-direction: column;
+}
+.grid-item-4 img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item-5{
+    display: flex;
+    flex-direction: column;
+}
+.grid-item-5 img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item-5{
+    display: flex;
+    flex-direction: column;
+}
+.grid-item-5 img {
+    width: 100%;
+    height: auto;
+}
 
 footer{
     width:100%;
@@ -295,6 +382,7 @@ footer{
     justify-content: space-between; 
     margin: 0 auto;
     padding-top: 80px;
+    padding-bottom: 120px;
   
 
 }
@@ -448,13 +536,16 @@ footer a:hover{
        flex-wrap: wrap;
     }
     .card-1{
-        width: 90%;
+        width: 92%;
     }
     .card-2{
-        width: 90%;
+        width: 92%;
     }
     .card-3{
-        width: 90%;
+        width: 92%;
+    }
+    .orenge-icons{
+        display:none;
     }
 }
     
