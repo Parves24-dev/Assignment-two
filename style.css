@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind+Siliguri:wght@300;400;500;600;700&family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+  }
+  
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 102px;
+}
+nav ul,a,i{
+    list-style: none;
+    text-decoration:none;
+    display: flex;
+    gap: 32px;
+    color: black;
+    font-size: large;
+}
+nav a:hover{
+color:orange;
+border-bottom: 2px solid orange;
+}
+.a-one{
+    color: orange;
+    font-size: 20px;
+}
+.a-two{
+    color: skyblue;
+    font-size: 20px;
+} 
+.a-three{
+    color: rgb(5,212,223);
+    font-size: 20px;
+}
+.a-fore{
+    color:rgba(93, 88, 239, 1);
+    font-size: 20px;
+}
+
+#menu{
+    display: none;
+}
+#cart{
+    display: none;
+}
+
+nav i{
+    font-size: 24px;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width:62px;
+    height:62px;
+}
+
+header button{
+    background-color: orange;
+    color: aliceblue;
+    padding: 10px 10px;
+    width: 197px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+}
+header button:hover{
+    background-color: black;
+    color: orange;
+}
+header{
+    width:100%;
+    
+}
+
+header>nav{
+    width:82%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* benner section */
+
+.benner{
+    display: flex;
+    width:82%;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.colorful-text{
+    font-size: 52px;
+    font-weight:600;
+}
+.light-text{
+
+    font-size: 20px;
+}
+.benner .text{
+    height: 330px;
+}
+.benner button{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 10px 10px;
+    width: 197px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.benner button:hover{
+    background-color: orange ;
+    color:black;
+}
+
+
+
+
+/* Standard Curriculum */
+.Standard-Curriculum{
+    background-image: url(assets/bg.png);
+ 
+    width:100% ;
+
+}
+.Standard-Curriculum h3 {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.cards a:hover{
+    color: crimson;
+}
+
+.card-1{
+    width: 26%;
+    height: 476px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(222,245,255,1) 100%);
+    border: 1px solid rgb(222, 245, 255,100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 19px;
+
+}
+.card-1 h4{
+    text-align: center;
+    font-size: 24px;
+   
+}
+.card-1 p{
+    text-align:center ;
+    color: #808080;
+    line-height: 28px;
+    width: 290px;
+    font-size: 15px;
+
+}
+.card-1 a{
+    margin-top: 20px;
+    color: skyblue;
+    font-weight: 600;
+}
+
+
+.card-2{
+    width:26%;
+    height: 476px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(255,244,220,1) 100%);
+    border: 1px solid rgba(255,244,220,1) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 19px;
+
+}
+.card-2 h4{
+    text-align: center;
+    font-size: 24px;
+   
+}
+.card-2 p{
+    text-align:center ;
+    color: #808080;
+    line-height: 28px;
+    width: 290px;
+    font-size: 15px;
+
+}
+.card-2 a{
+    margin-top: 20px;
+    color:#f0aa00;
+    font-weight: 600;
+}
+
+
+.card-3{
+    width:26%;
+    height: 476px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 40%, rgba(242,232,255,1) 100%);
+    border: 1px solid rgba(242,232,255,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 19px;
+
+}
+.card-3 h4{
+    text-align: center;
+    font-size: 24px;
+   
+}
+.card-3 p{
+    text-align:center ;
+    color: #808080;
+    line-height: 28px;
+    width: 290px;
+    font-size: 15px;
+
+}
+.card-3 a{
+    margin-top: 20px;
+    color: #8700ff;
+    font-weight: 600;
+}
+.orenge-icons i{
+    background-color: orange;
+    font-size: 60px;
+    color: white;
+    border-radius: 50%;
+    
+    
+
+}
+.orenge-icons{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    gap: 10px;
+ 
+}
+
+footer{
+    width:100%;
+    height: 50%;
+    background-color: rgb(1, 172, 252);
+    
+}
+.foot{
+    width: 82%;
+    height: 222px;
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+    padding-top: 80px;
+  
+
+}
+.foot-logo{
+    display: flex;
+    font-size: 32px;
+    gap: 11px;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    color: white;
+}
+.foot-item-1{
+    width: 400px;
+    color: aliceblue;
+    margin-top: -18px;
+}
+.foot-item-1 p{
+    margin-left: 15px;
+}
+
+.foot-item-3, .foot-item-2 h3{
+    font-size: 24px;
+    color: white;
+
+}
+.foot-item-2{
+    margin-bottom: 10px;
+}
+footer a{
+    color: white;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+footer a:hover{
+    color:orange;
+}
+
+
+@media screen and (max-width:576px){
+
+    footer{
+        width: 100%;
+        height: 642px;
+    }
+    .foot{
+        flex-direction:column;
+        margin-left: 50px;
+      
+    }
+    .foot-item-2 a{
+        font-size: 16px;
+        margin-top:-10px ;
+    }
+    .foot-item-2,.foot-item-3 h3{
+        font-size: 20px;
+    }
+    .foot-item-1 img{
+        width: 67px;
+        height: 67px;
+        margin-left:-25px ;
+    }
+    .foot-item-1 p{
+        margin-left: 5px;
+        margin-top: -30px;
+        font-size: 16px;
+    }
+    .foot-logo{
+        font-size: 32px;
+    }
+    .foot-item-1{
+        margin-top: -50px;
+    }
+    .foot-item-2{
+        margin-top:-10px;
+    }
+
+
+    /* benner */
+
+    .benner{
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 90%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .benner .text .colorful-text{
+        font-size: 32px;
+        text-align: center;
+    }
+    .benner .text .light-text{
+        font-size:14px ;
+        text-align: center;
+        width: 357px;
+        margin: 0 auto;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .benner .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .benner img{
+        width: 90%;
+        margin: 0 auto;
+
+    }
+    .hero-img{
+        display: flex;
+        justify-content: center;
+    }
+    /* header */
+    #logo-text{
+        display: none;
+    }
+    #menu{
+        display: inline;
+    }
+    #menu i{
+        font-size: 36px;
+    }
+
+    nav a,button{
+        display: none;
+    }
+    nav .logo img {
+        height: 42px;
+        width: 42px;
+    }
+    header{
+        width: 100%;
+    }
+    nav .res{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+    .Standard-Curriculum h3{
+        font-size: 26px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:976px){
+    /* cards */
+
+    .cards{
+        flex-direction: column;
+       flex-wrap: wrap;
+    }
+    .card-1{
+        width: 90%;
+    }
+    .card-2{
+        width: 90%;
+    }
+    .card-3{
+        width: 90%;
+    }
+}
+    
