@@ -496,8 +496,9 @@ marquee{
     border-top-right-radius: 20px;
 }
 .grid-item-7 button{
-    background-color: #5d58f0;
+    background-color: #368046;
     margin-left:15px;
+    padding-bottom: 20px;
    
 }
 .grid-item-7 h5{
@@ -727,9 +728,10 @@ footer a:hover{
     .grid-item-6,.grid-item-7{
         display: inline;
     }
-    .grid-item-6>button{
-        margin-top: -60px;
+    .grid-item-7 button{
+        
     }
+  
     .grids h5{
         font-size: 16px;
     }
@@ -764,6 +766,7 @@ footer a:hover{
     margin: 0 auto;
 
     }
+
 
      /* cards */
 
