@@ -498,7 +498,7 @@ marquee{
 .grid-item-7 button{
     background-color: #368046;
     margin-left:15px;
-    padding-bottom: 20px;
+ 
    
 }
 .grid-item-7 h5{
@@ -728,7 +728,8 @@ footer a:hover{
     .grid-item-6,.grid-item-7{
         display: inline;
     }
-    .grid-item-7 button{
+    .grid-item-7 .grid-btn{
+        margin-top: -20px;
         
     }
   
@@ -820,6 +821,16 @@ footer a:hover{
         justify-content: center;
         flex-direction:column-reverse;
         margin-bottom: 400px;
+    }
+
+    .grid-item-6,.grid-item-7{
+        display: inline;
+    }
+    .grids{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .grid-item-1{
+        display:none;
     }
 }
     
